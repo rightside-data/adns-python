@@ -38,6 +38,9 @@ setup (# Distribution meta-data
     long_description=long_description,
     license = "GPL",
     classifiers = [
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 2',
+    'Programming Language :: Python :: 2.7',
     "Development Status :: 6 - Mature",
     "Intended Audience :: Developers",
     "License :: OSI Approved :: GNU General Public License (GPL)",
@@ -45,7 +48,6 @@ setup (# Distribution meta-data
     "Topic :: Internet :: Name Service (DNS)",
     "Topic :: Software Development :: Libraries",
     ],
-
     # Description of the modules and packages in the distribution
     
     py_modules = ["DNSBL", "ADNS"],
