@@ -18,8 +18,8 @@ extra_objects = []
 if os.name == "posix": # most Linux/UNIX platforms
     libraries = ["adns"]
 else:
-    raise "UnknownPlatform", "sys.platform=%s, os.name=%s" % \
-          (sys.platform, os.name)
+    raise Exception("UnknownPlatform sys.platform=%s, os.name=%s" % \
+          (sys.platform, os.name))
     
 long_description = \
 """adns-python is a Python module that interfaces to the adns asynchronous
